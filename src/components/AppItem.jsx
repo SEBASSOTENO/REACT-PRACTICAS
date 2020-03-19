@@ -215,6 +215,6 @@ const appitem = () => {
     </section>
 
       </body>
-    ) 
+    );
 }
 export default appitem;

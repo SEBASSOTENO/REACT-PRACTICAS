@@ -12,13 +12,15 @@ import * as serviceWorker from './serviceWorker';
 // import Header from '../src/components/Header';
 
 // import Carrusel from '../src/components/Carrusel';
-import Layout from '../src/container/App';
+import Prueba from '../src/components/Carousel';
 
 // import Search from '../src/components/Search';
 
 //import Stateless from './components/Stateless';
 
-ReactDOM.render( < Layout / > , document.getElementById('root'));
+// ReactDOM.render( < Layout / > , document.getElementById('root'));
+
+ReactDOM.render( < Prueba / > , document.getElementById('root'));
 
 // ReactDOM.render( < Header / > , document.getElementById('root'));
 
