@@ -5,7 +5,7 @@ import '../assets/style/components/carouselcn.scss';
 const carousel = () => {
     return(
         <section class="carousel">
-        <h3 class="categories__title">Tendencias</h3>
+        <h3 class="categories__title">Mi Lista</h3>
         <div class="carousel__container">
       
           <div class="carousel-item">
