@@ -8,19 +8,26 @@ import * as serviceWorker from './serviceWorker';
 
 // import FBM from './components/Manzanas';
 
-
 // import Header from '../src/components/Header';
 
 // import Carrusel from '../src/components/Carrusel';
-import Prueba from '../src/components/Carousel';
+// import Prueba from '../src/components/Carousel';
+// import SSO from '../src/components/ClaseDigital';
 
 // import Search from '../src/components/Search';
 
 //import Stateless from './components/Stateless';
 
+// import Layout from '../src/container/App';
 // ReactDOM.render( < Layout / > , document.getElementById('root'));
 
-ReactDOM.render( < Prueba / > , document.getElementById('root'));
+import Layout from '../src/container/Layout';
+ReactDOM.render( < Layout / > , document.getElementById('root'));
+
+
+// ReactDOM.render( < Prueba / > , document.getElementById('root'));
+
+// ReactDOM.render( < SSO / > , document.getElementById('root'));
 
 // ReactDOM.render( < Header / > , document.getElementById('root'));
 
