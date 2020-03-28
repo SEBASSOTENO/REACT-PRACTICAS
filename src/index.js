@@ -26,8 +26,11 @@ import * as serviceWorker from './serviceWorker';
 // import HolaMundo from './components/Holamundo';
 // ReactDOM.render( < HolaMundo / > , document.getElementById('root'));
 
-import Login from '../src/container/Login';
-ReactDOM.render( < Login / > , document.getElementById('root'));
+// import Login from '../src/container/Login';
+// ReactDOM.render( < Login / > , document.getElementById('root'));
+
+import Register from '../src/container/Register';
+ReactDOM.render( < Register / > , document.getElementById('root'));
 
 // import Layout from '../src/container/App';
 // ReactDOM.render( < Layout / > , document.getElementById('root'));
