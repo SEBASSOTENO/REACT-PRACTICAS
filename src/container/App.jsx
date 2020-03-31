@@ -1,18 +1,26 @@
 import React from 'react';
 
 import '../assets/style/app.scss';
+import '../assets/style/components/header.scss';
+
 import Header from'../components/Header';
 import Footer from'../components/Footer';
-import Carrusel from'../components/Carrusel';
 import Search from '../components/Search';
-import AppItem from '../components/AppItem';
+
+import Carrusel1 from '../components/Carrusel1';
+import CarruselItem from '../components/CarruselItem';
+import Categories from '../components/Categories';
 
 const App = () => (
     <div className="App">
         <Header/>
         <Search/>
-        <Carrusel/>
-        <AppItem/>
+        <Categories>
+            <Carrusel1>
+                <CarruselItem>
+                </CarruselItem>
+            </Carrusel1>
+        </Categories>
         <Footer/>
     </div>
 );
