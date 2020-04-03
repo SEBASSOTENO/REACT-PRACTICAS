@@ -1,7 +1,19 @@
+@import '../Vars.scss';
 body {
     margin: 0;
-    font-family: 'Muli', sans-serif;
-    background: #e05353;
+    background: $main-color;
+    font-family: $theme-font;
+}
+
+.header {
+    align-items: center;
+    background-color: #0000;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
 }
 
 * {

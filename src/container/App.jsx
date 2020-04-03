@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../assets/style/app.scss';
-import '../assets/style/components/header.scss';
+import '../assets/style/components/footer.scss';
 
 import Header from'../components/Header';
 import Footer from'../components/Footer';

@@ -1,6 +1,18 @@
-.categories__title {
-    background: #8f57fd;
+@import '../style/Vars.scss';
+.header {
+    align-items: center;
+    background-color: #0000;
     color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+
+.categories__title {
+    color: white;
+    font-family: $theme-font;
     font-size: 16px;
     margin-top: -16px;
     position: absolute;

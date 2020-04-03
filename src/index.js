@@ -35,8 +35,8 @@ import * as serviceWorker from './serviceWorker';
 import Login from '../src/container/App';
 ReactDOM.render( < Login / > , document.getElementById('root'));
 
-// import Layout from '../src/container/App';
-// ReactDOM.render( < Layout / > , document.getElementById('root'));
+//import Layout from '../src/container/App';
+//ReactDOM.render( < Layout / > , document.getElementById('root'));
 
 // import Layout from '../src/container/Layout';
 // ReactDOM.render( < Layout / > , document.getElementById('root'));

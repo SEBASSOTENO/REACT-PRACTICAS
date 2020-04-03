@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+$theme-font:'Raleway',
+sans-serif;
+$main-color:linear-gradient(#008cff, #07cc38);
+body {
+    background: $main-color;
+    font-family: $theme-font;
+}
